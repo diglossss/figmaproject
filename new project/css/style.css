@@ -42,28 +42,17 @@
 
   }
 
-  .wrapper{
-    max-width: 1440px;
-    margin: 0 auto;
+  .background {
+    background: url(../img/sfg/intro-bg.jpg) no-repeat;
+    height: 100vh;
+    background-size: 100vw 300px;
   }
 
   .header{
-    background-color: black ;
-  }
-
-  .intro{
-    height: 100vh;
-    background: url(/img/sfg/intro-bg.jpg) no-repeat;
-    background width: 1440;
-    background height: 300;
-  }
-
-  .header__wrapper{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
     justify-content: space-between;
-    padding-top: 75px;
-    padding-left: 455px;
-
+    align-items: flex-start;
+    padding-top: 80px;
+    width: 542px;
+    margin: auto;
   }
